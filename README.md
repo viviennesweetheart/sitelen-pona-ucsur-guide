@@ -36,6 +36,16 @@ Once you have installed any of these fonts you are done, in many applications si
 
 ### Operating systems
 
+#### Windows
+
+Even after installing a UCSUR font, sitelen pona may not show up in some places on Windows (e.g. the file explorer). This can be fixed with a registry change.
+
+1. Clone this repository (press the "Code" button, then "Download ZIP" and extract)
+2. Locate the `ucsur.reg` file inside. Optionally open it and change `"Fairfax HD"` to your font of choice
+3. Run it and restart your computer
+
+Note that this method may not work for Windows in an East Asian language.
+
 #### Android
 
 [This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
